@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid red;
+    max-width: 1320px;
+    height: 400px;
+    background-color: gainsboro;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+    align-content: start;
+}
+
+.box{
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+}
+.boxcenter{
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+}
+
+.d-flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: start;
+}
+
+.d-flex2{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    flex-direction: row;
+    align-content: start;
+}
+
+.d-flex3{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: row-reverse;
+    align-content: start;
+}
+
+.d-flex4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    align-content: start;
+}
+
+.d-flex5{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    flex-direction: row-reverse;
+    align-content: start;
+}
+
+.d-flex10{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column;
+    align-content: start;
+}
+
+.d-flex11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: start;
+}
+
+.d-flex12{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    flex-direction: column;
+    align-content: start;
+}
+
+.d-flex13{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    flex-direction: column-reverse;
+    align-content: start;
+}
+
+.d-flex14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    align-content: start;
+}
+
+.d-flex15{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    flex-direction: column-reverse;
+    align-content: start;
+}
